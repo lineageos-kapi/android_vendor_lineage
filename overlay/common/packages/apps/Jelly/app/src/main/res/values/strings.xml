@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_search_engine" translatable="false">https://search.brave.com/search?q={searchTerms}</string>
+    <string name="default_home_page" translatable="false">https://search.brave.com</string>
+    <string name="default_suggestion_provider" translatable="false">BRAVE</string>
+</resources>
