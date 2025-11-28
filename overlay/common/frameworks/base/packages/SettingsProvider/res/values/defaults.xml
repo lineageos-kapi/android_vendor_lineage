@@ -32,4 +32,7 @@
 
     <!-- Whether vibrate icon is shown in the status bar by default. -->
     <integer name="def_statusBarVibrateIconEnabled">1</integer>
+
+    <bool name="def_dtmf_tones_enabled">false</bool>
+    <bool name="def_sound_effects_enabled">false</bool>
 </resources>

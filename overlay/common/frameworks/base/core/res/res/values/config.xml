@@ -70,7 +70,7 @@
     <bool name="config_enableMultiUserUI">true</bool>
 
     <!--  Maximum number of supported users -->
-    <integer name="config_multiuserMaximumUsers">4</integer>
+    <integer name="config_multiuserMaximumUsers">16</integer>
 
    <!-- Set icon mask to circle -->
    <string name="config_icon_mask" translatable="false">"M50 0A50 50,0,1,1,50 100A50 50,0,1,1,50 0"</string>
@@ -178,4 +178,10 @@
 
     <!-- Whether glanceable hub is enabled by default. -->
     <bool name="config_glanceableHubEnabledByDefault">true</bool>
+
+    <string-array translatable="false" name="config_ntpServers">
+        <item>ntp://pool.ntp.org</item>
+    </string-array>
+
+    <string name="config_default_dns_server" translatable="false">9.9.9.9</string>
 </resources>
